@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title> welcome to our website</title>
+<meta charset-"utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv-x-US-Compatable" content="ie-edge">
+</head>
+<style>
+/* core style */ 
+ body {
+   padding:0;
+   margin:0;
+   font-family:Arial,helvetica. sans-serif;
+   background:black;
+   color:#fff;
+   font-size:1.1em;
+   line-height:1.5;
+   text-align:center;
+     }
+image {
+    display:block;
+	height:auto;
+	 }
+h1 , h2 , h3 {
+    margin:0;
+    padding:1em 0;
+	}
+p {
+   margin:0;
+   padding:1em 0;
+     }
+
+.btn  {
+  display:inline-block;
+  background:#333;
+  color:#fff;
+  text-decoration:none;
+  padding:1em 2em;
+  border:2px solid #666;
+  margin:.5em 0;
+  }
+  
+ .btn:hover {
+      background:#eaeaea;
+      color:#333;
+      }
+
+
+ #showcase  {
+      min-height:450px;
+	  color:#fff;
+	  text-align:center;
+         }	
+		 
+#showcase .bg-image {
+      position:absolute;
+      background:#333 url("hustle.jpg");
+	  background-position:center;
+	  background-repeat:no-repeat;
+	  background-size:cover;
+	  width:100%;
+	  height:450px;
+	  z-index:-1;
+	  opacity:0.8;   
+	  }
+#showcase h1 {
+ 	  padding-top:100px;
+	  padding-bottom:0;
+	    }
+		#showcase .content-wrap {
+		      padding:0 1.5em;
+			  }
+/* section-a */
+ #section-a  {
+background:#eaeaea;
+color:#333;
+padding-bottom:2em;
+     }
+/* section-b */
+  #section-b  {
+    padding:2em 1em 1em;
+         } 
+    #secton-b ul {
+       list-style:none;
+	   margin:0;
+	   padding:0;
+               }
+			   #section-b li {
+			   margin-bottom:1em;
+			   background:#fff;
+			   color:#333;
+			      }
+				  .card-content {
+				   padding:1.5em;
+				   }
+	/* section-c */
+      #section-c  {
+        background:#fff;
+		color:#333;
+		padding:2em;
+            }	
+/* section-d */ 
+   #section-d .box   {
+           padding:2em;
+		   color:#fff;
+                     } 
+#section-d .box:first-child  {
+              background:#2690d4;
+                    }
+/* footer   */
+   #main-footer {
+    padding:2em;
+    background:#000;
+    color:#fff;
+    text-allign:center;
+            }	
+     #main-footer  a{
+        color:#2690d4;
+        text-decoration:none;
+            }
+  #section-a .content-text   {
+           columns:2;
+           column-gap:2em;
+                    }
+  #section-a .content-text p {
+             padding-top:0;
+                    }
+					
+/* media query  */
+              @media(min-width:700px)   {
+			  .grid         {display:grid;
+			  grid-template-columns:1fr repeat(2(min-max:auto,25em)1fr;
+           }
+   .content-wrap,  #section-b ul { 
+              grid-column:2/4;  }
+
+			  
+.box ,  #main-footer div  {
+             grid-column:span 2;
+			 }
+			 
+			 
+         	#section-b ul {
+              display:flex;
+			  justify-content:space-around;
+                    }
+#section-b li {
+           	width:31%;
+             }			}		  
+</style>
+<!--------------header------------> 
+<header id="showcase" class="grid">
+<div class="bg-image"></div>
+<div class="content-wrap">
+<h1>Welcome to our website</h1>
+<p> well this  website is all about bringing a revolution in the hipp-hop communty 
+who claims to be real but isnt that real in real so we are the one to take this responsiabslity on our shoulders 
+</p>
+<a href="#section-b" class="btn"> Read More</a>
+</div>
+</header>
+<!------main--------->
+<main id="main">
+<!------section=a------->
+<section id="section-a" class="grid">
+<div class="content-wrap">
+<h1 class="content=title"> Web and Application developement</h1>
+<div class="content-text">
+<p> well this is our new build program where you will be able to  customize your own websites here and  make it the way you like it better . Our experts will be guiding u throughout the process of  creating ur website and in case of any inconcinience u can directly connect to us and report about it.
+</p>
+</div>
+</div>
+</section>
+<!-----------section-b--------->
+<section  id="section-b" class="grid">
+<ul>
+ <li><div class="card"><img src="black.jpg" width="70%" alt="" >
+ <div class="card-content">
+ <h3 class="card-title"> Web-developement </h3>
+ <p>As we all know that the web developement is a very inportant part of our day to
+ day life knowdays and every body out there must be aware of this thing 
+ so we think that every one should have a relevent knowledge regarding 
+ this and yes its not that  a rocket science  as it seems  but just a 
+ easy task
+ so we are taking an inniciative to make it easy and fast </p> </div> </li>
+ <li><div class="card"><img src="black.jpg"  width="70%" alt="" >
+ <div class="card-content">
+ <h3 class="card-title"> Mobile-applications </h3>
+ <p>As we all know that the web developement is a very inportant part of
+ our day to day life knowdays and every body out there must be aware of 
+ this thing so we think that every one should have a relevent knowledge 
+ regarding this and yes its not that  a rocket science  as it seems  but
+ just a easy task so we are taking an inniciative to make it easy and 
+ fast </p> </div> </li>
+ <li><div class="card"><img src="black.jpg" width="70%"  alt="" >
+ <div class="card-content">
+ <h3 class="card-title">Digital markting  </h3>
+ <p>As we all know that the web developement is a very inportant part of
+ our day to day life knowdays and every body out there must be aware of
+ this thing so we think that every one should have a relevent knowledge 
+ regarding this and yes its not that  a rocket science  as it seems  but
+ just a easy task so we are taking an inniciative to make it easy and 
+ fast </p> </div> </li>
+</ul>
+</section>
+<section id="section-c" class="grid">
+<div class="content-wrap">
+<h2 class="content-title">We handle all your digital needs</h2>
+<p> Nowday's the every one in this computerized digital world every one is havin his or her own digital needs and we cant denai this fact </p>
+</div></section>
+<section  id="section-d" class="grid">
+<div class="box">
+<h2 class="content-title"> contact us</h2>
+<p> Well we can be easily contaced if u hit us up on the number provided on the site and except  that just seearch my name on the google it is nitin neryal and we can be friend's for a white until or unless u gets ur problem solved</p>
+<p> contact at Nitinneryal4@gmail.com</p>
+</div>
+<div class="box">
+<h2 class="content-title">About our company </h2>
+<p> helo ki kdkllkflk dlfk dlf;ld ;;dfl; akdlflk ldflk d;lf ;dlkd adiei difkei dkjdki d kfdljlk dkjfdi fkkf  kdjdl dlkjf l fldkf dlkfk fjkldf kjfjf lfldkf dlkfdjf dlfjdlf fljdopekr.d;dkf fkdf;km.vmldklk
+</p>
+</div>
+</section>
+</main>
+<footer id="main-footer" class="grid">
+<div>perfect web solution's </div>
+<div> project by  <a href="#nitinnerya4@gmail.com" target="_blank">Nitin neryal</a></div>
+
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>
